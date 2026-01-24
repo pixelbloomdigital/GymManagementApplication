@@ -6,7 +6,6 @@ import com.pixelbloom.coreService.model.memberModel.Member;
 import com.pixelbloom.coreService.repository.CustomerRepository;
 import com.pixelbloom.coreService.requestDto.CreateCustomerRequest;
 import com.pixelbloom.coreService.requestDto.UpdateCustomerRequest;
-import com.pixelbloom.coreService.responseDto.CustomerResponse;
 import com.pixelbloom.coreService.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

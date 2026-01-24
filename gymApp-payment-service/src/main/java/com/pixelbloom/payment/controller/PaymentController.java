@@ -27,5 +27,22 @@ public class PaymentController {
         return paymentService.processRefundPayment(request);
     }
 
+    //1. GET /api/payments/today
+    //2. GET /api/payments/{paymentId}/invoice
+    //3. GET /api/payments/member/{memberId}
+    /*
+    Create Payment Order (UPI)
+POST /api/payments/order
+{
+  "memberId": 12,
+  "amount": 1500,
+  "purpose": "MEMBERSHIP_RENEWAL"
+}
+________________________________________
+Payment Webhook (Gateway → Backend)
+POST /api/payments/webhook
+________________________________________
+
+     */
 
 }

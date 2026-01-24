@@ -1,13 +1,13 @@
-package com.pixelbloom.oauth_social_login;
+package com.pixelbloom.authLogin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OauthSocialLoginApplication {
+public class authLoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OauthSocialLoginApplication.class, args);
+		SpringApplication.run(authLoginApplication.class, args);
 	}
 
 }

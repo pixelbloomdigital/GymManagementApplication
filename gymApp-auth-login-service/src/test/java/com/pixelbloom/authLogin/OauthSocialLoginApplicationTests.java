@@ -1,4 +1,4 @@
-package com.pixelbloom.oauth_social_login;
+package com.pixelbloom.authLogin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
